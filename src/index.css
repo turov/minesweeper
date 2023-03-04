@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Digital-Dismay";
+  src: local("Digital-Dismay"),
+  url("./fonts/Digital-Dismay.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Digital-Dismay", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  font-size: 48px;
+}
