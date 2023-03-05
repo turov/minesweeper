@@ -18,19 +18,19 @@ $color-red: #f90000;
 
 .🍟 {
     width: fit-content;
+    margin: 0 auto;
     padding: 7px 8px;
     background-color: $color-grey--light;
-    margin: 0 auto;
 }
 
 .🥸 {
-    background-color: $color-grey--light;
-    padding: 5px 5px 5px 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 6px;
+    padding: 5px 5px 5px 8px;
+    background-color: $color-grey--light;
 }
 
 .🧮 {
@@ -50,8 +50,8 @@ $color-red: #f90000;
     display: block;
     width: 26px;
     height: 26px;
-    padding: 0;
     border: unset;
+    padding: 0;
     background: $sprite;
     background-position-y: -24px;
     background-position-x: 0;
@@ -91,8 +91,8 @@ $color-red: #f90000;
     display: block;
     width: 16px;
     height: 16px;
-    padding: unset;
     border: unset;
+    padding: unset;
     background: $sprite;
     background-position-y: -51px;
     background-position-x: 0;
@@ -103,65 +103,77 @@ $color-red: #f90000;
         background-position-x: -17px;
     }
 
-    &[data-value="-1"] {
+    &[data-value="-1"],
+    &[data-value="1"]:active {
         background-position-x: -85px;
     }
 
-    &[data-value="🟥"] {
+    &[data-value="🟥"],
+    &[data-value="🟥"]:active {
         background-position-x: -102px;
     }
 
-    &[data-value="🤥"] {
+    &[data-value="🤥"],
+    &[data-value="🤥"]:active {
         background-position-x: -119px;
     }
 
     &[data-value="1"],
-    &[data-value="1"]:active{
+    &[data-value="1"]:active {
         background-position-y: -68px;
         background-position-x: 0;
     }
 
-    &[data-value="2"] {
+    &[data-value="2"],
+    &[data-value="2"]:active {
         background-position-y: -68px;
         background-position-x: -17px;
     }
 
-    &[data-value="3"] {
+    &[data-value="3"],
+    &[data-value="3"]:active {
         background-position-y: -68px;
         background-position-x: -34px;
     }
 
-    &[data-value="4"] {
+    &[data-value="4"],
+    &[data-value="4"]:active {
         background-position-y: -68px;
         background-position-x: -51px;
     }
 
-    &[data-value="5"] {
+    &[data-value="5"],
+    &[data-value="5"]:active {
         background-position-y: -68px;
         background-position-x: -68px;
     }
 
-    &[data-value="6"] {
+    &[data-value="6"],
+    &[data-value="6"]:active {
         background-position-y: -68px;
         background-position-x: -85px;
     }
 
-    &[data-value="7"] {
+    &[data-value="7"],
+    &[data-value="7"]:active {
         background-position-y: -68px;
         background-position-x: -102px;
     }
 
-    &[data-value="8"] {
+    &[data-value="8"],
+    &[data-value="8"]:active {
         background-position-y: -68px;
         background-position-x: -119px;
     }
 
-    &[data-value="🏳️"] {
+    &[data-value="🏳️"],
+    &[data-value="🏳️"]:active {
         background-position-y: -52px;
         background-position-x: -34px;
     }
 
-    &[data-value="❔"] {
+    &[data-value="❔"],
+    &[data-value="❔️"]:active {
         background-position-y: -52px;
         background-position-x: -51px;
     }
