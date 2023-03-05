@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Game.module.scss";
 
-const fieldSize: number = 4;
+const fieldSize: number = 16;
 const mineSymbol: number = -1;
-const mineAmount: number = 2;
+const mineAmount: number = 40;
 const availableTime: number = 999;
 const dimension = new Array(fieldSize).fill(null);
 const mineIndices: number[] = [];
